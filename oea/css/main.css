@@ -1,0 +1,273 @@
+/*If you want to change the font size you must change the p tags*/
+
+html {
+    font-size: 68.5%;
+}
+
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'RobotoBold';
+    src:url(fonts/roboto/roboto_bold/Roboto-Bold-webfont.eot);
+    src:url(fonts/roboto/roboto_bold/Roboto-Bold-webfont.svg);
+    src:url(fonts/roboto/roboto_bold/Roboto-Bold-webfont.ttf);
+    src:url(fonts/roboto/roboto_bold/Roboto-Bold-webfont.woff);
+}
+@font-face {
+    font-family: 'RobotoMedium';
+    src:url(fonts/roboto/roboto_medium/Roboto-Medium-webfont.eot);
+    src:url(fonts/roboto/roboto_medium/Roboto-Medium-webfont.svg);
+    src:url(fonts/roboto/roboto_medium/Roboto-Medium-webfont.ttf);
+    src:url(fonts/roboto/roboto_medium/Roboto-Medium-webfont.woff);
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src:url(fonts/roboto/roboto_regular/Roboto-Regular-webfont.eot);
+    src:url(fonts/roboto/roboto_regular/Roboto-Regular-webfont.svg);
+    src:url(fonts/roboto/roboto_regular/Roboto-Regular-webfont.ttf);
+    src:url(fonts/roboto/roboto_regular/Roboto-Regular-webfont.woff);
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src:url(fonts/roboto/roboto_light/Roboto-Light-webfont.eot);
+    src:url(fonts/roboto/roboto_light/Roboto-Light-webfont.svg);
+    src:url(fonts/roboto/roboto_light/Roboto-Light-webfont.ttf);
+    src:url(fonts/roboto/roboto_light/Roboto-Light-webfont.woff);
+}
+@font-face {
+    font-family: 'RobotoLightItalic';
+    src:url(fonts/roboto/roboto_lightitalic/Roboto-LightItalic-webfont.eot);
+    src:url(fonts/roboto/roboto_lightitalic/Roboto-LightItalic-webfont.svg);
+    src:url(fonts/roboto/roboto_lightitalic/Roboto-LightItalic-webfont.ttf);
+    src:url(fonts/roboto/roboto_lightitalic/Roboto-LightItalic-webfont.woff);
+}
+@font-face {
+    font-family: 'RobotoThinItalic';
+    src:url(fonts/roboto/roboto_thinitalic/Roboto-ThinItalic-webfont.eot);
+    src:url(fonts/roboto/roboto_thinitalic/Roboto-ThinItalic-webfont.svg);
+    src:url(fonts/roboto/roboto_thinitalic/Roboto-ThinItalic-webfont.ttf);
+    src:url(fonts/roboto/roboto_thinitalic/Roboto-ThinItalic-webfont.woff);
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+/*Begin top Bar*/
+
+.top-bar {
+    background: #000;
+    overflow: visible;
+}
+
+/** Changes the active menu item from default black to a gradient **/
+.top-bar-section ul li.active > a {
+    background:  #aaa;
+    color: #fff;
+}
+
+/** Changes the hover state of non active menu items **/
+.top-bar-section li:hover a {
+    color: #fff;
+}
+
+/** Changes non active menu items text color to black **/
+.top-bar-section ul li > a {
+    color: #fff;
+}
+
+/** Changes the hover state of dropdown menu items **/
+.top-bar-section ul.dropdown li a:hover:not(.button) {
+    background: none repeat scroll 0 0 #aaa;
+}
+
+/** IMPORTANT fill for the ul dropdown container **/
+.top-bar-section ul.dropdown {
+    background: #fff;
+    color: #fff;
+}
+
+/** This fixes the position and the color of the dropdown arrow **/
+.top-bar-section .has-dropdown > a:after {
+    border-color: #fff transparent transparent;
+    margin-top: 2.5px;
+}
+
+.logo {
+    z-index: 99;
+}
+
+.right {
+    font-family: 'RobotoRegular';
+    font-size: 150%;
+}
+
+.slider {
+}
+
+.menu {
+    background-color: yellow;
+    z-index: 30;
+}
+
+.menu p {
+    text-align: center;
+}
+
+.fourMenu {
+    z-index: 12;
+    text-align: center;
+    margin-top: -7.3rem;
+}
+
+#Button {
+    margin-top: -7.3rem;
+    margin-bottom: 8.3rem;
+    z-index: 12;
+}
+
+.content {
+    z-index: 9;
+    background-color: white;
+    text-align: center;
+    margin-top: -5.3rem;
+    margin-bottom: 3rem;
+}
+
+#forms label{
+    font-size: 100%;   
+}
+
+.news {
+    text-align: center;
+    border-style: solid;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.news h2 {
+    font-family: 'RobotoBold';
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 175%;
+}
+
+.news h4 {
+    font-family: 'RobotoMedium';
+    font-size: 125%;
+}
+
+.news h6 {
+    font-family: 'RobotoThinItalic'; 
+    font-size: 80%;
+}
+
+.news p {
+    font-family: 'RobotoLight';
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 100%;
+}
+
+.news h5 {
+    font-family: 'RobotoLight';
+    text-decoration: underline;
+    font-size: 90%;
+}
+
+.news img {
+    width: 75rem;  
+}
+
+#margin {
+    margin-bottom: 3rem;   
+}
+
+#column h4{
+    padding-top: 1rem;
+}
+
+#column p {
+    font-size: 90%;
+}
+
+#column b {
+    font-size: 120%;   
+}
+
+#space {
+    margin-bottom: 5rem;
+}
+
+.footer {
+    background-color: #ebebeb;
+}
+
+.footer h4 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'RobotoRegular';
+    font-size: 80%;
+    transform: rotate(270deg);
+    transform-origin: left top 0;
+    text-align: right;
+    position: absolute;
+}
+
+#rotation {
+    transform: rotate(90deg);
+    transform-origin: right top 0;
+    text-align: left;
+    margin-top: 8.2rem;
+    margin-left: 9.9rem;
+    position: absolute;
+}
+
+.footerFourBoxes{
+    padding-top: 1rem;   
+}
+
+.footerLinks {
+    border-left-style: solid;
+    border-width:0.2rem;
+    margin-left: 3.5rem;
+}
+
+.footerLinks p {
+    font-family: 'RobotoLight';
+    font-size: 70%;
+    margin-left: 0.2rem; 
+}
+
+#popular {
+    margin-top: 8rem;   
+}
+
+#hours {
+    margin-top: 3.5rem;
+}
+
+#contact {
+    margin-top: 4.6rem; 
+}
+
+#rightLinks {
+    border-left-style: none;
+    border-right-style: solid;
+    border-width: 0.2rem;
+    margin-right: 3.8rem;
+    position: absolute;
+}
+
+#rightLinks p{
+    margin-right: 0.2rem;  
+}
+
+#italics {
+    font-family: 'RobotoLightItalic';  
+}
+
+
+#textAlign {
+    text-align: right;   
+}

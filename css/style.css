@@ -82,30 +82,40 @@ body {
     margin: 10%;
 }
 
+h2{
+    font-size: 24px;   
+}
+
 .avatar {
 /*    margin: 0 40px 20px 0;*/
 }
-    .avatar img {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 200px;
-        max-height: 200px;
-        border-radius: 125px;
-    }
+.avatar img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 125px;
+}
 
 .content {
+    margin-top: 30px;
     width: 100%;
     float: left;
 }
-    .title {
-        font-size: 48px;
-        font-weight: normal;
-        line-height: 1;
-    }
+.title {
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.list {
+    margin-top: 20px;   
+}
 
 .align{
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 

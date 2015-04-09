@@ -1,0 +1,386 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'RobotoSlabBold';
+    src:url(fonts/roboto-slab/robotoslab_bold/robotoslab_bold.eot);
+    src:url(fonts/roboto-slab/robotoslab_bold/robotoslab_bold.svg);
+    src:url(fonts/roboto-slab/robotoslab_bold/robotoslab_bold.ttf);
+    src:url(fonts/roboto-slab/robotoslab_bold/robotoslab_bold.woff);
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'RobotoSlabLight';
+    src:url(fonts/roboto-slab/robotoslab_light/robotoslab_light.eot);
+    src:url(fonts/roboto-slab/robotoslab_light/robotoslab_light.svg);
+    src:url(fonts/roboto-slab/robotoslab_light/robotoslab_light.ttf);
+    src:url(fonts/roboto-slab/robotoslab_light/robotoslab_light.woff);
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'RobotoSlabRegular';
+    src:url(fonts/roboto-slab/robotoslab_regular/robotoslab_regular.eot);
+    src:url(fonts/roboto-slab/robotoslab_regular/robotoslab_regular.svg);
+    src:url(fonts/roboto-slab/robotoslab_regular/robotoslab_regular.ttf);
+    src:url(fonts/roboto-slab/robotoslab_regular/robotoslab_regular.woff);
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'RobotoSlabThin';
+    src:url(fonts/roboto-slab/robotoslab_thin/robotoslab_thin.eot);
+    src:url(fonts/roboto-slab/robotoslab_thin/robotoslab_thin.svg);
+    src:url(fonts/roboto-slab/robotoslab_thin/robotoslab_thin.ttf);
+    src:url(fonts/roboto-slab/robotoslab_thin/robotoslab_thin.woff);
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'JosefinSansLight';
+    src:url(fonts/Josefin_Sans/Josefin_Sans_Light/josefins-light-webfont.eot);
+    src:url(fonts/Josefin_Sans/Josefin_Sans_Light/josefins-light-webfont.svg);
+    src:url(fonts/Josefin_Sans/Josefin_Sans_Light/josefins-light-webfont.ttf);
+    src:url(fonts/Josefin_Sans/Josefin_Sans_Light/josefins-light-webfont.woff);
+    font-weight:normal;
+    font-style:normal;
+}
+
+body {
+	background-image: url(#);
+	background-repeat: repeat;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+div#header {
+	width: 886px;
+	height: 100px;
+	margin-top: 0;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 0;
+	padding: 0px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;   
+}
+
+div#header2 {
+	width: 886px;
+	height: 320px;
+    background-color:#D1D1D1;
+	margin-top: 0;
+	margin-left: 17px;
+    margin-right: auto;
+	margin-bottom: 0;
+	padding: 0px;	
+}
+
+h3 {
+	font-family:'RobotoSlabBold';
+	font-size:36px;
+    color: #D1D1D1;
+}
+
+h4 {
+	font-family:'RobotoSlabLight';
+    color:#D1D1D1;
+    margin-left: 10px;
+	font-size:16px;
+	margin-top:-40px;
+	letter-spacing:16px;
+}
+
+p {
+    font-family:'JosefinSansLight';
+	font-size:14px;
+    text-align: center
+}
+
+li {
+    font-family:'JosefinSansLight';
+	font-size:14px;
+    text-align: center;
+}
+
+
+div#wrapper_top {
+	width: 920px;
+	margin-top: 0;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 0;
+	padding: 0px;	
+}
+
+
+div#wrapper_top {
+	width: 920px;
+	margin-top: 0;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 0;
+	padding: 0px;	
+}
+
+div#topcolourbarwrapper_top { 
+	width: 886px;
+	height: 15px;
+	margin-left:17px;
+	
+	background-color: #fff;
+	text-align: center;
+}
+
+div#topcolourbar_bar { 
+	background-color: #a1a1a1;
+	width: 886px;
+	height: 10px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+div#topmenuwrapper { 
+	width: 920px;
+	height: 30px;
+	margin-top: 1px;
+	margin-bottom: 10px;
+}
+
+div#topmenu {
+    background-color: #D1D1D1;
+	margin-left: auto;
+    margin-right: auto;
+	padding-left: 0px;
+	padding-top: 7px;
+	width: 886px;
+	height: 28px;
+    font-family: "RobotoSlabRegular";
+	font-size: 10px;
+	text-align: center;
+}
+
+#topmenu ul {
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: 0;
+	list-style: none;
+}
+
+#topmenu li {
+	display: inline;
+	margin-left: 0;
+	padding: 0;
+    font-family: "RobotoSlabRegular";
+}
+
+#topmenu a {
+	padding-top: 7px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	padding-left: 10px;
+	width: 150px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+    border-right: solid thin #D1D1D1;
+	text-decoration: none;
+}
+
+#topmenulast a {
+	padding-top: 9px;
+	padding-bottom: 4px;
+	padding-right: 100px;
+	padding-left: 10px;
+	width: 200px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #A2988A;
+	border-right: none;
+	text-decoration: none;
+}
+
+#topmenu a:hover {
+	color: #fff;
+}
+
+#topmenu a:visited {
+	text-decoration: none;
+}
+
+div#thumbswrapper {
+	border: solid 1px #000;
+	width: 858px;
+	height: 100%;
+	margin-left: 18px;
+	margin-bottom: 20px;
+	padding: 8px;
+	line-height: 1.5;
+	float: left;
+}
+
+div#thumbs {
+	width: 858px;
+}
+
+div#portrait {
+	width: 315px;
+	padding-top:20px;
+	padding-left:40px;
+	float: left;
+}
+
+
+#thumbs ul {
+	padding: 0px;
+	list-style: none;
+}
+
+#thumbs li {
+	display: inline;
+	margin-left: 10px;
+	
+}
+
+#thumbs a {
+	display: block;
+	margin-left: 92px;
+    margin-right: 92px;
+	margin-bottom: 10px;
+    float: left;
+	border: solid 1px #5F6062;
+}
+
+
+
+div#thumbsdescription {
+	width: 858px;
+	height: 100%;
+	margin-top: 2px;
+	margin-bottom: 4px;
+	color: #5F6062;
+	font-size: 11px;
+	text-align: justify;
+	line-height: 1.8;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'RobotoSlabThin';
+}
+
+div#welcomedescription {
+	width: 400px;
+	height: 100%;
+	margin-left: 24px;
+	margin-top: 2px;
+	margin-bottom: 4px;
+	color: #5F6062;
+	font-size: 11px;
+	text-align: justify;
+	line-height: 1.8;
+	float: left;
+    font-family: 'RobotoSlabThin';
+}
+
+.style_robotoslabw {
+    margin-top: 10px;
+    color:#000;
+    font-family: "RobotoSlabBold";
+    text-align: center;
+    font-size: 28px;
+}
+
+/*Blue Colour -  I know it isn't really optimized with this method*/
+.style_robotoslab_blue {
+	margin-top: 24px;
+    color:#B3E2FF;
+}
+
+.style_robotoslab_blue h1 {
+    font-family: 'RobotoSlabRegular'; 
+    font-size: 42px;
+    text-align: center;
+}
+
+.style_robotoslab_blue p {
+    font-family: 'RobotoSlabLight';
+    color: #000;
+    font-size: 12px;
+}
+
+.style_thumbstitle_blue {
+	margin-left: 0px;
+}
+
+.style_thumbstitle_blue h2{
+    font-family: 'RobotoSlabLight';
+    font-size: 18px;
+    text-align: center;
+    color: #B3E2FF;
+}
+
+/*Green Colour*/
+.style_robotoslab_green {
+    margin-top: 24px;
+    color:#87E6A0;
+}
+
+.style_robotoslab_green h1 {
+    font-family: 'RobotoSlabRegular'; 
+    font-size: 42px;
+    text-align: center;
+}
+
+.style_robotoslab_green p {
+    font-family: 'RobotoSlabLight';
+    color: #000;
+    font-size: 12px;
+}
+
+.style_thumbstitle_green {
+    margin-left: 0px;
+}
+
+.style_thumbstitle_green h2{
+    font-family: 'RobotoSlabLight';
+    font-size: 18px;
+    text-align: center;
+    color: #87E6A0;
+}
+
+/*Brown Colour*/
+.style_robotoslab_brown {
+    margin-top: 24px;
+    color:#A57164;
+}
+
+.style_robotoslab_brown h1 {
+    font-family: 'RobotoSlabRegular'; 
+    font-size: 42px;
+    text-align: center;
+}
+
+.style_robotoslab_brown p {
+    font-family: 'RobotoSlabLight';
+    color: #000;
+    font-size: 12px;
+}
+
+.style_thumbstitle_brown {
+    margin-left: 0px;
+}
+
+.style_thumbstitle_brown h2{
+    font-family: 'RobotoSlabLight';
+    font-size: 18px;
+    text-align: center;
+    color: #A57164;
+}

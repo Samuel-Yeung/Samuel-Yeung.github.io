@@ -1,0 +1,263 @@
+<?php
+
+$id = $_POST['id'];
+$name = $_POST['name'];
+
+
+
+?>
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OEA | Static</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+    
+  <body>
+      
+      <nav class="top-bar" data-topbar>
+              <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+              <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+              <!-- Right Nav Section -->
+              <ul class="right">
+                  <li class="#"><a href="#">News</a></li>
+                  <li class="#"><a href="#">Membership</a></li>
+                  <li class="#"><a href="#">Coaching</a></li>
+                  <li class="#"><a href="#">Programs / Education</a></li>
+                  <li class="#"><a href="events.html">Events / Competition</a></li>
+                  <li class="#"><a href="#">Trail Riding</a></li>
+                  <li class="#"><a href="#">Resources</a></li>
+                  <li class="#"><a href="#">Contact</a></li>
+                  <li class="#"><a href="#">About</a></li>
+              </ul>
+          </section>
+      </nav>
+      
+    <div class="row">
+        <div class="small-2 small-centered columns">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png"></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="large-12 columns">
+            <div class="slider"><img src="images/events.jpg"></div>
+        </div>
+    </div>
+
+    <div class="fourMenu">
+        <div class="row">
+            <div class="large-3 small-6 columns" id="Button">
+                <img src="images/link1.jpg">
+            </div>
+
+            <div class="large-3 small-6 columns" id="Button">
+                <a href="western.html"><img src="images/link2.jpg"></a>
+            </div>
+
+            <div class="large-3 small-6 columns" id="Button">
+                <img src="images/link3.jpg">
+            </div>
+
+            <div class="large-3 small-6 columns" id="Button">
+                <img src="images/link4.jpg">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="row" id="hideMe">
+            <div class="large-12 columns">
+                <div class="panel" id="forms">
+                    <form method="post" action="registration.php">
+                        <h3><?php print('$name'); ?></h3>
+                        <fieldset>
+                            <legend>Rider Information</legend>
+                            <label for="firstName">First Name:</label>
+                            <input type="text" name="name_first" id="firstName" value="" placeholder="First Name" maxlength="30">
+
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" name="name_last" id="lastName" value="" placeholder="Last Name" maxlength="30">
+
+                            <label for="address">Address:</label>
+                            <input type="text" name="address" id="address" value="" placeholder="Address" maxlength="60">
+
+                            <label for="city">City:</label>
+                            <input type="text" name="city" id="city" value="" placeholder="City" maxlength="60">
+
+                            <label for="province">Province:</label>
+                            <select name="province" id="province">
+                                <option value="" selected="selected">Select a Province</option>
+                                <option value="AB">Alberta</option>
+                                <option value="BC">British Columbia</option>
+                                <option value="MB">Manitoba</option>
+                                <option value="NB">New Brunswick</option>
+                                <option value="NL">Newfoundland and Labrador</option>
+                                <option value="NC">Nova Scotia</option>
+                                <option value="ON">Ontario</option>
+                                <option value="PE">Prince Edward Island</option>
+                                <option value="QC">Quebec</option>
+                                <option value="SK">Saskatchewan</option>
+                                
+                            </select>
+
+                            <label for="postalCode">Postal Code:</label>
+                            <input type="text" name="postal_code" id="postalCode" value="" placeholder="Postal Code" maxlength="7">
+
+                            <label>Gender:</label>
+                            <input type="radio" name="gender" id="genderFemale" value="f" checked="checked">
+                            <label for="genderFemale">Female</label>
+                            <input type="radio" name="gender" id="genderMale" value="m">
+                            <label for="genderMale">Male</label>
+
+                            <label for="age">Age:</label>
+                            <select name="age" id="age">
+                                <option value="" selected="selected">Select an Age</option>
+                                <option value="1">12 - 13</option>
+                                <option value="2">14 - 15</option>
+                                <option value="3">16 - 17</option>
+                                <option value="4">18 - 19</option>
+                                <option value="5">20 - 29</option>
+                                <option value="6">30 - 39</option>
+                                <option value="7">40 - 49</option>
+                                <option value="8">50 - 59</option>
+                                <option value="9">50 - 59</option>
+                                <option value="10">60 - 69</option>
+                                <option value="11">70 - 79</option>
+                                <option value="12">80 - 90</option>
+                            </select>
+
+                            <label for="licsnecNumber">CEA Licence Number:</label>
+                            <input type="text" name="number_licence" id="licenceNumber" value="" placeholder="CEA Licence Number" maxlength="9">
+
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Horse Information</legend>
+                            <label for="horseName">Name:</label>
+                            <input type="text" name="horse_name" id="horseName" value="" placeholder="Horse Name" maxlength="30">
+
+                            <label for="horseAge">Age:</label>
+                            <select name="horse_age" id="horseAge">
+                                <option value="" selected="selected">Select an Age</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                            </select>
+
+                            <label>Gender:</label>
+                            <input type="radio" name="horse_gender" id="horseGenderFemale" value="f" checked="checked">
+                            <label for="horseGenderFemale">Female</label>
+                            <input type="radio" name="horse_gender" id="horseGenderMale" value="m">
+                            <label for="horseGenderMale">Male</label>
+
+                        </fieldset>
+
+                        <input class="small button radius success" type="submit" name="submit" id="submit1" value="Sign Up">
+                        <input class="small button radius" type="reset" name="reset" id="reset" value="Reset">
+                        <input type="hidden" name="id" id="id1" value='<?php print("$id") ?>'>
+                        <input type="hidden" name="name" id="name1" value="Register">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footerFourBoxes">
+            <div class="row">
+                <div class="medium-3 small-12 columns">
+                    <h4 id="popular">Popular Links</h4>
+                    <div class="footerLinks">
+                        <p>Find a Business</p>
+                        <p>Find a Stable</p>
+                        <p>Find an Instructor</p>
+                        <p>Find a Coach</p>
+                        <p>Find a Trail</p>
+                        <p>Find a Competition</p>
+                        <p>Marketing</p>
+                        <p>Membership Renewal</p>
+                        <p>Coaching Certification</p>
+                        <p>Learning to Ride</p>
+                        <p>Privacy Policy</p>
+                        <p>Contact</p>
+                    </div>
+                </div>
+                <div class="medium-3 small-12 columns">
+                    <h4 id="hours">Hours</h4>
+                    <div class="footerLinks">
+                        <p>
+                            (September to May) <br>
+                            Monday to Thursday <br>
+                            8 am - 4pm
+                        </p>
+                        <p>
+                            (May to September) <br>
+                            Monday to Thursday <br>
+                            8 am - 4pm <br>
+                            Friday 8am - 12pm
+                        </p>
+                    </div>
+                </div>
+                <div class="medium-3 small-12 columns">
+                    <h4 id="contact">Contact</h4>
+                    <div class="footerLinks">
+                        <p>
+                            2000 Simcoe Street North <br>
+                            Oshawa, Ontario L1H 7L7
+                        </p>
+                        <p>
+                            Telephone: 905-721-2000 <br>
+                            Toll-free: 1-877-821-2000
+                        </p>
+                        <p>
+                            Email: <br>
+                            info@ontarioequestrianassociation.ca
+                        </p>
+                    </div>
+                </div>
+                <div class="medium-3 small-12 columns" id="textAlign">
+                    <h4 id="rotation">Member Login</h4>
+                    <div class="footerLinks" id="rightLinks">
+                        <input type="text" name="userName" id="userName" value="" placeholder="username" >
+                        <input type="password" name="userName" id="userName" value="" placeholder="password" >
+                        <p id="italics">LOGIN</p>
+                        <p>Not A Member? Click Here</p>
+                        <p>Forgot your password?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

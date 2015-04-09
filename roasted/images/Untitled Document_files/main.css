@@ -1,0 +1,61 @@
+@charset "UTF-8";
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+.box1 {
+    background-color: green;
+    color: white;
+    height: 480px;
+    position: absolute;
+    width: 100%;
+}
+.box2 {
+    background-color: red;
+    color: white;
+    height: 480px;
+    margin-top: 500px;
+    position: absolute;
+    width: 100%;
+}
+.box3 {
+    background-color: blue;
+    color: white;
+    height: 480px;
+    margin-top: 1100px;
+    position: absolute;
+    width: 100%;
+}
+
+.box4 {
+    background-color: tan;
+    color: white;
+    height: 480px;
+    margin-top: 1500px;
+    position: absolute;
+    width: 100%;
+}
+
+.box5 {
+    background-color: pink;
+    color: white;
+    height: 480px;
+    margin-top: 2000px;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+.counter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: red;
+    z-index: 200;
+    background-color: yellow;
+}
